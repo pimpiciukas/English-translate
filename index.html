@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        English translate
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="myFunction()">
+    <div class="Wrap"> 
+        <div class="NameWrap"> 
+            <h1 class="Name"> 
+                TranslateIt
+            </h1>
+        </div>
+
+        <div class="TranslateTextWrap">
+            <p class="TranslateText" id="EnglishWord"></p>
+        </div>
+
+        <div class="NextPlace"> 
+            <button class="Next" onclick="LearntButtonClick()">
+                Learnt
+            </button>
+        </div>
+
+        <div class="CorrectAnswerWrap"> 
+            <p class="CorrectAnswer" id="CorrectAnswer"></p>
+        </div>
+
+        <div class="AgainWrap"> 
+            <button class="Again" onclick="AgainButtonClick()"> 
+                Again
+            </button>
+        </div>
+
+        <div class="WrittenAnswerWrap">
+            <label for="WrittenAnswer" class="WrittenAnswerLabel"> Write your answer:</label>
+            <input type="text" id="WrittenAnswer" placeholder="Translation" class="WrittenAnswer"/>
+            <button class="Enter" onclick="EnterButtonClick()">
+                Enter
+            </button>
+        </div> 
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

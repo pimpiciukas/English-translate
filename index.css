@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+.Wrap{ 
+    background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Answer Correct */
+.CorrectAnswerWrap{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.CorrectAnswer{
+    display: none;
+    font-size: 50px;
+    align-items: center;
+}
+/* Answer Written */
+.WrittenAnswerWrap{
+    display: flex;
+    justify-content: center;
+}
+.WrittenAnswer{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 6px 5px;
+}
+.WrittenAnswerLabel{
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+/* Button Learnt */
+.NextPlace{
+    bottom: 10%;
+    position: absolute;
+    right: 5%;
+}
+.Next{
+    background-color: green;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: wheat;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 3px 5px;
+}
+
+/* Button again */
+.AgainWrap{
+    bottom: 10%;
+    position: absolute;
+    left: 5%;
+}
+.Again{
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    color:wheat;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 3px 5px;
+}
+
+/* Button Enter */
+.EnterWrap{
+    bottom: 33%;
+    position: absolute;
+    right: 22%;
+}
+.Enter{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 2px 5px;
+}
+
+/* name */
+.NameWrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Name{
+    color: green;
+    padding:0% 2%;
+    width: max-content;
+}
+
+/* text */
+.TranslateTextWrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.TranslateText{
+    font-size: 1.4em;
+}
+
+
+
+
+
